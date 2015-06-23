@@ -14,9 +14,6 @@
 #define MAX_REQ_LENGTH 100
 #define REQ_GET_HTML "GET / HTTP/1.0\r\n\r\n"
 
-/*
- * プロセス内で関数を呼ぶと変な挙動になるので全部 main() に収めた。
- */
  int main(int argc, char* argv[]) {
 
    struct hostent* host;
