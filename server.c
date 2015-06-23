@@ -11,7 +11,7 @@
 #define PORT 10080
 #define MAX_MEMBER 10
 
-void doExitTask(int fd, int fdArray[], int fdc, fd_set* readfdsFactory, int legalExit);
+ void doExitTask(int fd, int fdArray[], int fdc, fd_set* readfdsFactory, int legalExit);
  void spread(char param[], int fdc, int fd, int fdArray[]);
  void sendInitMessage(int fd);
  void sendCapacityError(int fd);
